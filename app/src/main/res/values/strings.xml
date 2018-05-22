@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fema App</string>
+    <string name="professor">PROFESSOR</string>
+    <string name="aluno">ALUNO</string>
+</resources>
