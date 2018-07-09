@@ -1,10 +1,18 @@
 package fema.edu.br.femaapp;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+
+import static fema.edu.br.femaapp.R.layout.tela_inicial;
 
 public class TelaInicial extends AppCompatActivity {
 
@@ -13,7 +21,7 @@ public class TelaInicial extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tela_inicial);
+        setContentView(tela_inicial);
 
         btnAluno = (ImageButton)findViewById(R.id.btnAluno);
         btnProfessor = (ImageButton)findViewById(R.id.btnProfessor);
@@ -37,3 +45,4 @@ public class TelaInicial extends AppCompatActivity {
 
     }
 }
+
