@@ -44,8 +44,8 @@ public class TelaLogin extends AppCompatActivity {
                 if(ra.isEmpty() || senha.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Nenhuma campo pode estar vazio", Toast.LENGTH_SHORT).show();
                 } else {
-                    //url = "http://10.0.119.17/FemaApp/logar.php";
-                    url = "http://192.168.1.35/FemaApp/logar.php";
+                    //url = "http://10.0.119.17/femaapp/logar.php";
+                    url = "http://192.168.1.36/femaapp/logar.php";
 
                     parametros = "ra=" + ra + "&senha=" + senha;
 

@@ -21,7 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".TelaLogin"/><activity android:name=".TelaLogin2"/>
-        <activity android:name=".TelaMenu"></activity>
+        <activity android:name=".TelaMenu"/><activity android:name=".TelaMenu2"/>
+        <activity android:name=".Downloader"/><activity android:name=".TelaNotasLancar"/>
+        <activity android:name=".Validar"/>
     </application>
 
     <supports-screens android:smallScreens="true"

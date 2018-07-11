@@ -44,8 +44,8 @@ public class TelaLogin2 extends AppCompatActivity {
                     if(ra2.isEmpty() || senha2.isEmpty()) {
                         Toast.makeText(getApplicationContext(), "Nenhuma campo pode estar vazio", Toast.LENGTH_SHORT).show();
                     } else {
-                        //url = "http://10.0.119.17/FemaApp/logar2.php";
-                        url = "http://192.168.1.35/FemaApp/logar2.php";
+                        //url = "http://10.0.119.17/femaapp/logar2.php";
+                        url = "http://192.168.1.36/femaapp/logar2.php";
 
                         parametros = "ra2=" + ra2 + "&senha2=" + senha2;
 
@@ -71,7 +71,7 @@ public class TelaLogin2 extends AppCompatActivity {
         protected void onPostExecute(String resultado) {
 
             if(resultado.contains("login_ok")){
-                Intent abreMenu2 = new Intent(TelaLogin2.this, TelaMenu.class);
+                Intent abreMenu2 = new Intent(TelaLogin2.this, TelaMenu2.class);
                 startActivity(abreMenu2);
             } else {
                 Toast.makeText(getApplicationContext(), "Usuário ou senha estão incorretos", Toast.LENGTH_SHORT).show();
