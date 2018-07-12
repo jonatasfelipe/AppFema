@@ -22,8 +22,11 @@
         </activity>
         <activity android:name=".TelaLogin"/><activity android:name=".TelaLogin2"/>
         <activity android:name=".TelaMenu"/><activity android:name=".TelaMenu2"/>
-        <activity android:name=".Downloader"/><activity android:name=".TelaNotasLancar"/>
-        <activity android:name=".Validar"/>
+        <activity android:name=".TelaNotasLancar"/><activity android:name=".TelaBoletos"/>
+        <activity android:name=".TelaContratos"/><activity android:name=".TelaDependencia"/>
+        <activity android:name=".TelaHorarios"/><activity android:name=".TelaInformacao"/>
+        <activity android:name=".TelaMonografia"/><activity android:name=".FemaAppContentProvider"/>
+
     </application>
 
     <supports-screens android:smallScreens="true"

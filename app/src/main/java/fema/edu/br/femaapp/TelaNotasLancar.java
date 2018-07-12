@@ -16,18 +16,6 @@ public class TelaNotasLancar extends AppCompatActivity {
         setContentView(R.layout.tela_lancanotas);
 
 
-        final ListView lv= (ListView) findViewById(R.id.lv);
-        final Downloader d=new Downloader(this,url,lv);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //EXECUTE DOWNLOAD
-                d.execute();
-            }
-        });
-
     }
 
 }
