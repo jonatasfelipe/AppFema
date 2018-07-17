@@ -8,7 +8,7 @@ import android.widget.ListView;
 
 public class TelaNotasLancar extends AppCompatActivity {
 
-    String url="http://192.168.1.36/femaapp/alunos.php";
+    String url="http://192.168.1.80/femaapp/alunos.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
